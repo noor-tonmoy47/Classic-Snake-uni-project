@@ -63,7 +63,13 @@ public class GamePanel extends JPanel implements ActionListener {
              */
             g.setColor(Color.red);
             g.fillOval(appleX, appleY, unitSize, unitSize);
-
+            g.setColor(Color.green);
+            //g.drawArc(appleX,appleY,40,50, 80,35);
+            g.fillArc(appleX-5,appleY-10,35,30, 5,35);
+            //g.fillArc();
+            g.setColor(new Color(206, 121, 45));
+            //g.drawLine(appleX+12,appleY, appleX+12,appleY-10);
+            g.fillRect(appleX+12,appleY-5, 4,13);
             for (int i = 0; i < bodyParts; i++) {
                 if (i == 0) {
                     g.setColor(Color.green);
