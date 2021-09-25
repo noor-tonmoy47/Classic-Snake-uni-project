@@ -30,10 +30,10 @@ public class InsScreen extends JFrame implements ActionListener {
                 move right""";
 
         ultimate4 = """
-                w
-                s
-                a
-                d""";
+                w / up
+                s / down
+                a / left
+                d / right""";
 
         this.setBounds(0,0, 897, 690);
         this.setLayout(null);
@@ -115,7 +115,7 @@ public class InsScreen extends JFrame implements ActionListener {
         keys.setHighlighter(null);
         //CreditsText.setHorizontalAlignment(JTextField.LEADING);
         //keys
-        keys.setBounds(340,390,30,130);
+        keys.setBounds(340,390,112,130);
         keys.setFont(new Font("Mv Boil", Font.PLAIN, 27));
         keys.setOpaque(false);
         keys.setText(ultimate4);
