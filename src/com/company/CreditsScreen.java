@@ -86,7 +86,7 @@ public class CreditsScreen extends JFrame implements ActionListener {
         creditsText.setEditable(false);
         creditsText.setHighlighter(null);
         //CreditsText.setHorizontalAlignment(JTextField.LEADING);
-        creditsText.setBounds(90,230,360,200);
+        creditsText.setBounds(90,230,360,220);
         creditsText.setFont(new Font("Mv Boil", Font.PLAIN, 27));
         creditsText.setOpaque(false);
         creditsText.setText(ultimate);
