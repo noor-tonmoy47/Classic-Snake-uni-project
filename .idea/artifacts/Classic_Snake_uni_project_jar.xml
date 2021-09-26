@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Classic-Snake-uni-project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Classic_Snake_uni_project_jar</output-path>
+    <root id="archive" name="Classic-Snake-uni-project.jar">
+      <element id="module-output" name="Classic Snake" />
+      <element id="module-output" name="res" />
+    </root>
+  </artifact>
+</component>

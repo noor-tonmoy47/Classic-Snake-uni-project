@@ -81,7 +81,7 @@ public class InsScreen extends JFrame implements ActionListener {
         InsText.setEditable(false);
         InsText.setHighlighter(null);
         //CreditsText.setHorizontalAlignment(JTextField.LEADING);
-        InsText.setBounds(90,115,700,210);
+        InsText.setBounds(90,105,700,210);
         InsText.setFont(new Font("Mv Boil", Font.PLAIN, 27));
         InsText.setOpaque(false);
         InsText.setText(ultimate2);
@@ -91,7 +91,7 @@ public class InsScreen extends JFrame implements ActionListener {
         keyMaps = new JTextField();
         keyMaps.setEditable(false);
         keyMaps.setHighlighter(null);
-        keyMaps.setBounds(90, 327, 150, 40);
+        keyMaps.setBounds(90, 337, 150, 40);
         keyMaps.setHorizontalAlignment(JTextField.LEFT);
         keyMaps.setBorder(null);
         keyMaps.setFont(new Font("Mv Boil", Font.BOLD, 30));
@@ -104,7 +104,7 @@ public class InsScreen extends JFrame implements ActionListener {
         controlsText.setEditable(false);
         controlsText.setHighlighter(null);
         //CreditsText.setHorizontalAlignment(JTextField.LEADING);
-        controlsText.setBounds(90,390,170,130);
+        controlsText.setBounds(90,390,170,150);
         controlsText.setFont(new Font("Mv Boil", Font.PLAIN, 27));
         controlsText.setOpaque(false);
         controlsText.setText(ultimate3);
@@ -115,7 +115,7 @@ public class InsScreen extends JFrame implements ActionListener {
         keys.setHighlighter(null);
         //CreditsText.setHorizontalAlignment(JTextField.LEADING);
         //keys
-        keys.setBounds(340,390,112,130);
+        keys.setBounds(340,390,112,150);
         keys.setFont(new Font("Mv Boil", Font.PLAIN, 27));
         keys.setOpaque(false);
         keys.setText(ultimate4);
