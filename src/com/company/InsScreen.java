@@ -36,6 +36,8 @@ public class InsScreen extends JFrame implements ActionListener {
                 d / right""";
 
         this.setBounds(0,0, 897, 690);
+        ImageIcon icon = new ImageIcon("snake Icon-3.png");
+        this.setIconImage(icon.getImage());
         this.setLayout(null);
         this.setLocationRelativeTo(null);
         this.setResizable(false);

@@ -9,6 +9,8 @@ public class LoadingFrame extends JFrame {
         LoadingScreen ls = new LoadingScreen();
 
         this.setSize(897,690);
+        ImageIcon icon = new ImageIcon("snake Icon-3.png");
+        this.setIconImage(icon.getImage());
         this.setLayout(null);
 
         setPb();

@@ -2,11 +2,14 @@ package com.company;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
 
 public class MenuScreen extends JPanel {
     Image img2;
     MenuScreen(){
-        img2 = new ImageIcon("C:/Users/shams/Desktop/Classic-Snake-uni-project/res/image2.png").getImage();
+        //File imgFile = new File("image2.png");
+        img2 = new ImageIcon("image2.png").getImage();
+        //img2 = new ImageIcon(imgFile.toURI().toString()).getImage();
         this.setBounds(0,0,897,690);
     }
 

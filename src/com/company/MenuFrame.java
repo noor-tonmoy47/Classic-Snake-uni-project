@@ -14,6 +14,8 @@ public class MenuFrame  extends JFrame implements ActionListener {
     private JButton[] buttons;
     MenuFrame(){
         this.setSize(897,690);
+        ImageIcon icon = new ImageIcon("snake Icon-3.png");
+        this.setIconImage(icon.getImage());
         this.setLayout(null);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
