@@ -8,7 +8,9 @@ public class GameFrame extends JFrame {
 
         this.add(new GamePanel());
 
-        this.setTitle("Snake");
+        //this.setTitle("Snake");
+        ImageIcon icon = new ImageIcon("snake Icon-3.png");
+        this.setIconImage(icon.getImage());
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
